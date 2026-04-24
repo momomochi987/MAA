@@ -977,7 +977,14 @@
     },
     "CloseAnnos": {
         "algorithm": "JustReturn",
-        "next": ["CloseAnno", "CloseAnnoTexas", "CloseAnnoSpecialAccess", "TodaysSupplies", "NotDownloadVoice"]
+        "next": ["CloseAnno", "CloseAnnoTexas", "CloseAnnoSpecialAccess", "TodaysSupplies", "NotDownloadVoice", "DataSyncConfirm"]
+    },
+    "DataSyncConfirm": {
+        "Doc": "游戏内跨日数据同步弹窗（画面正中下的白底黑勾按钮），各服文字不同但按钮 icon 相同，用 template match 点掉",
+        "baseTask": "CloseAnnoBase",
+        "template": "DataSyncConfirm.png",
+        "roi": [540, 490, 200, 160],
+        "postDelay": 2000
     },
     "MainThemes": {
         "Doc": "使用本任务时带上 #next",
