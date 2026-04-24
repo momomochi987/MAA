@@ -980,10 +980,10 @@
         "next": ["CloseAnno", "CloseAnnoTexas", "CloseAnnoSpecialAccess", "TodaysSupplies", "NotDownloadVoice", "DataSyncConfirm"]
     },
     "DataSyncConfirm": {
-        "Doc": "游戏内跨日数据同步弹窗（画面正中下的白底黑勾按钮），各服文字不同但按钮 icon 相同，用 template match 点掉",
+        "Doc": "跨日数据同步弹窗（画面正中下的白底黑勾按钮）。按钮视觉与 OfflineConfirm 相同（游戏引擎共用同一套确认弹窗 UI 组件），直接复用 OfflineConfirm.png 与 ROI；差异在 next：OfflineConfirm 点完回登入页走重连流程，DataSyncConfirm 点完回主页由 CloseAnnoBase 的 next 处理后续公告弹窗级联",
         "baseTask": "CloseAnnoBase",
-        "template": "DataSyncConfirm.png",
-        "roi": [540, 490, 200, 160],
+        "template": "OfflineConfirm.png",
+        "roi": [310, 409, 648, 165],
         "postDelay": 2000
     },
     "MainThemes": {
