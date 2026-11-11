@@ -7,7 +7,7 @@
             "mask": []
         },
         "next": ["MallDefault"],
-        "onErrorNext": ["Mall-Entry@SwitchTheme@ToggleSettingsMenu"]
+        "onErrorNext": ["Mall-Entry@SwitchTheme@Begin"]
     },
     "MallDefault": {
         "action": "ClickSelf",

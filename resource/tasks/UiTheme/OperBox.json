@@ -7,7 +7,7 @@
             "mask": []
         },
         "next": ["OperBoxDefault"],
-        "onErrorNext": ["OperBox-Entry@SwitchTheme@ToggleSettingsMenu"]
+        "onErrorNext": ["OperBox-Entry@SwitchTheme@Begin"]
     },
     "OperBoxDefault": {
         "action": "ClickSelf",

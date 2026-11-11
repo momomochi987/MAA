@@ -7,7 +7,7 @@
             "mask": []
         },
         "next": ["TaskDefault"],
-        "onErrorNext": ["Task-Entry@SwitchTheme@ToggleSettingsMenu"]
+        "onErrorNext": ["Task-Entry@SwitchTheme@Begin"]
     },
     "TaskDefault": {
         "action": "ClickSelf",

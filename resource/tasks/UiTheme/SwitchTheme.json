@@ -1,10 +1,19 @@
 {
+    "SwitchTheme@Begin": {
+        "Doc": "入口按钮找不到时切回日间主题的兜底入口；登录后公告、今日配给、活动弹层可能晚于主界面出现并盖住齿轮，先关闭再找",
+        "algorithm": "JustReturn",
+        "next": ["SwitchTheme@ToggleSettingsMenu", "SwitchTheme@Begin@CloseAnnos#next"]
+    },
+    "SwitchTheme@Begin@MainThemes": {
+        "Doc": "关闭弹层后回到找齿轮（CloseAnnoBase 的 MainThemes#next 默认 #back 会回到 JustReturn 入口，不能放在 next 中间）",
+        "next": ["SwitchTheme@ToggleSettingsMenu"]
+    },
     "SwitchTheme@ToggleSettingsMenu": {
         "action": "ClickSelf",
         "template": ["SwitchTheme@ToggleSettingsMenu.png", "SwitchTheme@ToggleSettingsMenu-v2.png"],
         "roi": [227, 327, 159, 152],
         "postDelay": 1000,
-        "next": ["SwitchTheme@ChangeTheme", "SwitchTheme@ToggleSettingsMenu"]
+        "next": ["SwitchTheme@ChangeTheme", "SwitchTheme@ToggleSettingsMenu", "SwitchTheme@Begin@CloseAnnos#next"]
     },
     "SwitchTheme@ChangeTheme": {
         "action": "ClickSelf",

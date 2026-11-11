@@ -7,7 +7,7 @@
             "mask": []
         },
         "next": ["InfrastDefault"],
-        "onErrorNext": ["Infrast-Entry@SwitchTheme@ToggleSettingsMenu"]
+        "onErrorNext": ["Infrast-Entry@SwitchTheme@Begin"]
     },
     "InfrastDefault": {
         "action": "ClickSelf",

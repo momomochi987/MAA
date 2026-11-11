@@ -7,7 +7,7 @@
             "mask": []
         },
         "next": ["GachaDefault"],
-        "onErrorNext": ["Gacha-Entry@SwitchTheme@ToggleSettingsMenu"]
+        "onErrorNext": ["Gacha-Entry@SwitchTheme@Begin"]
     },
     "GachaDefault": {
         "action": "ClickSelf",

@@ -7,7 +7,7 @@
             "mask": []
         },
         "next": ["DepotDefault"],
-        "onErrorNext": ["Depot-Entry@SwitchTheme@ToggleSettingsMenu"]
+        "onErrorNext": ["Depot-Entry@SwitchTheme@Begin"]
     },
     "DepotDefault": {
         "action": "ClickSelf",

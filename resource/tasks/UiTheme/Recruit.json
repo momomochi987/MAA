@@ -7,7 +7,7 @@
             "mask": [125, 0, 25, 20]
         },
         "next": ["RecruitDefault"],
-        "onErrorNext": ["Recruit-Entry@SwitchTheme@ToggleSettingsMenu"]
+        "onErrorNext": ["Recruit-Entry@SwitchTheme@Begin"]
     },
     "RecruitDefault": {
         "action": "ClickSelf",

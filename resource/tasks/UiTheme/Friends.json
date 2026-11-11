@@ -7,7 +7,7 @@
             "mask": []
         },
         "next": ["FriendsDefault"],
-        "onErrorNext": ["Friends-Entry@SwitchTheme@ToggleSettingsMenu"]
+        "onErrorNext": ["Friends-Entry@SwitchTheme@Begin"]
     },
     "FriendsDefault": {
         "action": "ClickSelf",
