@@ -22,6 +22,8 @@
     },
     "SwitchTheme@SelectLightTheme": {
         "action": "ClickSelf",
+        "rectMove_Doc": "模板最上方 4 像素点击无效（点中后仍停在原主题，误判为已设置而取消），点击区域去掉上方 8 像素",
+        "rectMove": [0, 8, 268, 72],
         "roi": [0, 99, 430, 180],
         "maxTimes": 10,
         "exceededNext": ["SwitchTheme@CancelThemeChange"],
